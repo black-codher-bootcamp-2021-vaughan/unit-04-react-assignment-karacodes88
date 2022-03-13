@@ -2,11 +2,11 @@ import React, { useState, useRef } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import ProductList from "./components/ProductList";
 import Search from "./components/Search";
-import "./components/style.css";
+import "./styles/style.css";
 import Basket from "./components/Basket";
 import Header from "./components/Header";
 import {data} from "./models/data.json";
-import About from "./components/About";
+import About from "./pages/About";
 
 function App() {
   const [products, setProducts] = useState(data);
